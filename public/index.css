@@ -1,7 +1,15 @@
 main {
 	background-color: black;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 div.photo {
 	outline: 1px solid red ;
+	/*display: flex;*/
+}
+
+img {
+	max-width: 400px;
+	align-items: center;
 }
